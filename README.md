@@ -27,10 +27,8 @@ There's a `client.py` script to interact with the API.
 
 ### Upload a CSV
 
-A sample file `movies_data_assignment.csv` is included in the repo.
-
 ```bash
-python client.py upload movies_data_assignment.csv
+python client.py upload path/to/movies.csv
 ```
 
 This uploads the file, then polls until processing is done. You'll see progress printed as it goes.
@@ -52,11 +50,6 @@ python client.py movies --page 2 --per_page 10
 ```
 
 
-## CSV format
-
-The CSV should have these columns: `budget`, `homepage`, `original_language`, `original_title`, `overview`, `release_date`, `revenue`, `runtime`, `status`, `title`, `vote_average`, `vote_count`, `production_company_id`, `genre_id`, `languages`.
-
-The `languages` column uses Python-style lists like `['English', 'Français']`.
 
 ## How it works
 
