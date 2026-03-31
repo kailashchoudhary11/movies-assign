@@ -51,9 +51,6 @@ python client.py movies --sort_by vote_average --order desc
 python client.py movies --page 2 --per_page 10
 ```
 
-### Postman
-
-You can also import `postman_collection.json` into Postman if you prefer testing the API manually.
 
 ## CSV format
 
