@@ -5,7 +5,7 @@ from bson import ObjectId
 from pymongo.database import Database
 from pymongo.results import InsertOneResult
 
-from app import get_db
+from app.database import get_db
 
 
 def create_job(filename: str, total_rows: int) -> str:

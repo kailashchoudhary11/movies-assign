@@ -6,7 +6,7 @@ from pymongo import UpdateOne
 from pymongo.database import Database
 from pymongo.results import BulkWriteResult
 
-from app import get_db
+from app.database import get_db
 from app.utils.validators import SortField, SortOrder
 
 
